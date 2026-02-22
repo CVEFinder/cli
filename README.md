@@ -20,14 +20,14 @@ Scan websites for CVEs, vulnerabilities, and technology stacks directly from you
 ### From PyPI (Recommended)
 
 ```bash
-pip install cvefinder-cli
+pip install cvefinder-io
 ```
 
 ### From Source
 
 ```bash
-git clone https://github.com/cvefinder/cli.git
-cd cvefinder-cli
+git clone https://github.com/CVEFinder/cli.git
+cd cli
 pip install -e .
 ```
 
@@ -290,7 +290,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 ## Support
 
 - 📧 Email: support@cvefinder.io
-- 🐛 Issues: [GitHub Issues](https://github.com/cvefinder/cli/issues)
+- 🐛 Issues: [GitHub Issues](https://github.com/CVEFinder/cli/issues)
 - 📚 Documentation: [docs.cvefinder.io](https://docs.cvefinder.io)
 - 💬 Twitter: [@CVEFinder_io](https://twitter.com/CVEFinder_io)
 
@@ -298,4 +298,4 @@ MIT License - see [LICENSE](LICENSE) file for details.
 
 - Website: https://cvefinder.io
 - API Documentation: https://docs.cvefinder.io/api-reference
-- GitHub: https://github.com/cvefinder/cli
+- GitHub: https://github.com/CVEFinder/cli

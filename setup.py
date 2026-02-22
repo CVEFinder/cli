@@ -11,7 +11,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="cvefinder-io",
-    version="1.0.0",
+    version="1.0.1",
     author="CVEFinder.io",
     author_email="support@cvefinder.io",
     description="Official CLI for CVEFinder.io API - CVE scans, dependency analysis, bulk scans, and exports",

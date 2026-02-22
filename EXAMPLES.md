@@ -4,11 +4,11 @@
 
 ```bash
 # Install from PyPI
-pip install cvefinder-cli
+pip install cvefinder-io
 
 # Or install from source
-git clone https://github.com/cvefinder/cli.git
-cd cvefinder-cli
+git clone https://github.com/CVEFinder/cli.git
+cd cli
 pip install -e .
 ```
 
@@ -300,7 +300,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Install CVEFinder CLI
-        run: pip install cvefinder-cli
+        run: pip install cvefinder-io
 
       - name: Scan website
         env:
@@ -330,7 +330,7 @@ jobs:
 security-scan:
   image: python:3.11
   script:
-    - pip install cvefinder-cli
+    - pip install cvefinder-io
     - cvefinder scan run https://example.com --format json > scan.json
     - |
       CRITICAL=$(jq '.severity_counts.critical' scan.json)
@@ -360,7 +360,7 @@ pipeline {
     stages {
         stage('Install') {
             steps {
-                sh 'pip install cvefinder-cli'
+                sh 'pip install cvefinder-io'
             }
         }
 
@@ -590,6 +590,6 @@ cvefinder configure --help
 ## More Resources
 
 - 📚 Documentation: https://docs.cvefinder.io
-- 🐛 Report Issues: https://github.com/cvefinder/cli/issues
+- 🐛 Report Issues: https://github.com/CVEFinder/cli/issues
 - 💬 Support: support@cvefinder.io
 - 🌐 Website: https://cvefinder.io
