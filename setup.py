@@ -10,18 +10,18 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setup(
-    name="cvefinder-cli",
+    name="cvefinder-io",
     version="1.0.0",
     author="CVEFinder.io",
     author_email="support@cvefinder.io",
     description="Official CLI for CVEFinder.io API - CVE scans, dependency analysis, bulk scans, and exports",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/cvefinder/cli",
+    url="https://github.com/CVEFinder/cli",
     project_urls={
-        "Bug Tracker": "https://github.com/cvefinder/cli/issues",
+        "Bug Tracker": "https://github.com/CVEFinder/cli/issues",
         "Documentation": "https://docs.cvefinder.io",
-        "Source Code": "https://github.com/cvefinder/cli",
+        "Source Code": "https://github.com/CVEFinder/cli",
         "Website": "https://cvefinder.io",
     },
     packages=find_packages(),

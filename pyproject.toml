@@ -3,7 +3,7 @@ requires = ["setuptools>=45", "wheel", "setuptools_scm[toml]>=6.2"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cvefinder-cli"
+name = "cvefinder-io"
 dynamic = ["version"]
 description = "Official CLI for CVEFinder.io API"
 readme = "README.md"
@@ -36,8 +36,8 @@ dependencies = [
 [project.urls]
 Homepage = "https://cvefinder.io"
 Documentation = "https://docs.cvefinder.io"
-Repository = "https://github.com/cvefinder/cli"
-Issues = "https://github.com/cvefinder/cli/issues"
+Repository = "https://github.com/CVEFinder/cli"
+Issues = "https://github.com/CVEFinder/cli/issues"
 
 [project.scripts]
 cvefinder = "cvefinder.cli:main"
